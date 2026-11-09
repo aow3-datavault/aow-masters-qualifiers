@@ -11,9 +11,10 @@
 .faction table{width:100%;border-collapse:collapse;table-layout:fixed;text-align:left;font-size:16px;line-height:1.3}
 .faction th,.faction td{padding:10px 12px}
 .faction .nickname,.faction .clan{overflow-wrap:anywhere;word-break:normal}
+.faction .nickname{color:var(--text)}
 .faction thead{color:var(--muted);background:#1d2e2f}
 .faction thead th,.league-label{font-family:Refrigerator,'Arial Narrow',Arial,sans-serif}
-.faction thead th{font-size:13px}
+.faction thead th{font-size:calc(1em - 2px)}
 .faction thead .points{width:6.5rem}
 .faction tbody{border-top:1px solid var(--line)}
 .faction tbody tr+tr td{border-top:1px solid #2a3a3b}
@@ -33,7 +34,6 @@
   .faction h2{padding:12px 9px}
   .faction th,.faction td{padding:8px 4px}
   .faction table{font-size:12px}
-  .faction thead th{font-size:11px}
   .faction thead .points{width:4rem}
   .league-divider img{width:26px;height:26px}
 }
