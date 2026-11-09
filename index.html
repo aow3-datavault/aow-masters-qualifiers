@@ -4,32 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#101717">
-  <title>Результаты отбора — Art of War Masters ’26 Fall</title>
+  <title data-en="Qualification Results — Art of War Masters ’26 Fall">Результаты отбора — Art of War Masters ’26 Fall</title>
   <link rel="icon" href="assets/icon.png">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="results.css">
+  <script src="language.js" defer></script>
 </head>
 <body>
   <div class="shell">
     <header class="topbar">
       <div class="brand"><img src="assets/icon.png" width="46" height="46" alt=""><span><strong>ART OF WAR 3</strong><small>MASTERS</small></span></div>
-      <span class="eyebrow season">FALL ’26</span>
+      <div class="page-options">
+        <span class="eyebrow season">FALL ’26</span>
+        <nav class="language-toggle" aria-label="Язык / Language">
+          <a href="?lang=ru" lang="ru" hreflang="ru" aria-current="true">RU</a>
+          <a href="?lang=en" lang="en" hreflang="en">EN</a>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="intro" aria-labelledby="title">
-        <h1 id="title">Результаты <span>отбора</span></h1>
+        <h1 id="title"><span class="title-first" data-en="Qualification">Результаты</span> <span data-en="results">отбора</span></h1>
         <p class="lead">Art of War Masters ’26 Fall</p>
       </section>
-      <nav class="faction-nav" aria-label="Фракции">
-        <a href="#confederation">Конфедерация</a>
-        <a href="#resistance">Сопротивление</a>
+      <nav class="faction-nav" aria-label="Фракции" data-en-label="Factions">
+        <a href="#confederation" data-en="Confederation">Конфедерация</a>
+        <a href="#resistance" data-en="Resistance">Сопротивление</a>
       </nav>
       <section class="faction confederation" id="confederation" aria-labelledby="confederation-title">
-        <h2 id="confederation-title">Конфедерация</h2>
+        <h2 id="confederation-title" data-en="Confederation">Конфедерация</h2>
         <table aria-labelledby="confederation-title">
-          <thead><tr><th scope="col">Никнейм</th><th scope="col">Клан</th><th scope="col" class="points">Балл</th></tr></thead>
+          <thead><tr><th scope="col" data-en="Nickname">Никнейм</th><th scope="col" data-en="Clan">Клан</th><th scope="col" class="points" data-en="Score">Балл</th></tr></thead>
           <tbody class="league bronze">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/bronze.png" width="32" height="32" alt=""><span>Бронзовая лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/bronze.png" width="32" height="32" alt=""><span data-en="Bronze League">Бронзовая лига</span></span></th></tr>
             <tr>
               <td class="nickname">-King of kinG-</td>
               <td class="clan">Kamikazes-Latinos&#39;</td>
@@ -37,7 +44,7 @@
             </tr>
           </tbody>
           <tbody class="league silver">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/silver.png" width="32" height="32" alt=""><span>Серебряная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/silver.png" width="32" height="32" alt=""><span data-en="Silver League">Серебряная лига</span></span></th></tr>
             <tr>
               <td class="nickname">Dang Cuong</td>
               <td class="clan">...AOW3...</td>
@@ -45,7 +52,7 @@
             </tr>
           </tbody>
           <tbody class="league gold">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/gold.png" width="32" height="32" alt=""><span>Золотая лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/gold.png" width="32" height="32" alt=""><span data-en="Gold League">Золотая лига</span></span></th></tr>
             <tr>
               <td class="nickname">Y THE BLUE KINGDON</td>
               <td class="clan">Rage Bait</td>
@@ -58,7 +65,7 @@
             </tr>
           </tbody>
           <tbody class="league diamond">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/diamond.png" width="32" height="32" alt=""><span>Алмазная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/diamond.png" width="32" height="32" alt=""><span data-en="Diamond League">Алмазная лига</span></span></th></tr>
             <tr>
               <td class="nickname">ABDO SY</td>
               <td class="clan">--BlueKingDom-AOW-</td>
@@ -71,7 +78,7 @@
             </tr>
           </tbody>
           <tbody class="league star">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/star.png" width="32" height="32" alt=""><span>Звёздная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/star.png" width="32" height="32" alt=""><span data-en="Star League">Звёздная лига</span></span></th></tr>
             <tr>
               <td class="nickname">STRATEG 2 VS 2</td>
               <td class="clan">PRIGOVOR</td>
@@ -94,7 +101,7 @@
             </tr>
           </tbody>
           <tbody class="league legendary">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/legendary.png" width="32" height="32" alt=""><span>Легендарная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/legendary.png" width="32" height="32" alt=""><span data-en="Legendary League">Легендарная лига</span></span></th></tr>
             <tr>
               <td class="nickname">TOON ISAAC !</td>
               <td class="clan">A-L-L-S-T-A-R-S-</td>
@@ -124,11 +131,11 @@
         </table>
       </section>
       <section class="faction resistance" id="resistance" aria-labelledby="resistance-title">
-        <h2 id="resistance-title">Сопротивление</h2>
+        <h2 id="resistance-title" data-en="Resistance">Сопротивление</h2>
         <table aria-labelledby="resistance-title">
-          <thead><tr><th scope="col">Никнейм</th><th scope="col">Клан</th><th scope="col" class="points">Балл</th></tr></thead>
+          <thead><tr><th scope="col" data-en="Nickname">Никнейм</th><th scope="col" data-en="Clan">Клан</th><th scope="col" class="points" data-en="Score">Балл</th></tr></thead>
           <tbody class="league bronze">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/bronze.png" width="32" height="32" alt=""><span>Бронзовая лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/bronze.png" width="32" height="32" alt=""><span data-en="Bronze League">Бронзовая лига</span></span></th></tr>
             <tr>
               <td class="nickname">TORERO__KOnF</td>
               <td class="clan">CBOuX HE 6POCAEM</td>
@@ -136,7 +143,7 @@
             </tr>
           </tbody>
           <tbody class="league silver">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/silver.png" width="32" height="32" alt=""><span>Серебряная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/silver.png" width="32" height="32" alt=""><span data-en="Silver League">Серебряная лига</span></span></th></tr>
             <tr>
               <td class="nickname">ZEALXVIL</td>
               <td class="clan">Pepe&#39;s Platoon III</td>
@@ -144,7 +151,7 @@
             </tr>
           </tbody>
           <tbody class="league gold">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/gold.png" width="32" height="32" alt=""><span>Золотая лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/gold.png" width="32" height="32" alt=""><span data-en="Gold League">Золотая лига</span></span></th></tr>
             <tr>
               <td class="nickname">kjoctl049</td>
               <td class="clan">huaxiashengshi</td>
@@ -157,7 +164,7 @@
             </tr>
           </tbody>
           <tbody class="league diamond">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/diamond.png" width="32" height="32" alt=""><span>Алмазная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/diamond.png" width="32" height="32" alt=""><span data-en="Diamond League">Алмазная лига</span></span></th></tr>
             <tr>
               <td class="nickname">Zloy Santa..</td>
               <td class="clan">-GrandMasters-</td>
@@ -170,7 +177,7 @@
             </tr>
           </tbody>
           <tbody class="league star">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/star.png" width="32" height="32" alt=""><span>Звёздная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/star.png" width="32" height="32" alt=""><span data-en="Star League">Звёздная лига</span></span></th></tr>
             <tr>
               <td class="nickname">CRUZHO4EK</td>
               <td class="clan">us for 30 years</td>
@@ -193,7 +200,7 @@
             </tr>
           </tbody>
           <tbody class="league legendary">
-            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/legendary.png" width="32" height="32" alt=""><span>Легендарная лига</span></span></th></tr>
+            <tr class="league-divider"><th scope="rowgroup" colspan="3"><span class="league-label"><img src="assets/leagues/legendary.png" width="32" height="32" alt=""><span data-en="Legendary League">Легендарная лига</span></span></th></tr>
             <tr>
               <td class="nickname">I love Vietnam !!!</td>
               <td class="clan">Polacy</td>

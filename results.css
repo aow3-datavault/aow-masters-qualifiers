@@ -1,4 +1,8 @@
 .faction-nav{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:25px;font-size:16px}
+.intro .title-first{color:inherit}
+.page-options{display:flex;align-items:flex-end;flex-direction:column;gap:5px}
+.language-toggle a{min-width:42px;padding:3px 8px;border:1px solid var(--line);text-align:center;font-size:16px}
+.language-toggle a:hover,.language-toggle a[aria-current]{color:var(--cyan);border-color:var(--cyan)}
 .faction-nav a{padding:6px 14px;border:1px solid var(--line);background:#172324}
 .faction-nav a:hover{border-color:var(--cyan);color:var(--cyan)}
 .faction{--accent:var(--cyan);margin:0 0 32px;border:1px solid var(--line);border-top:3px solid var(--accent);background:#172324}
