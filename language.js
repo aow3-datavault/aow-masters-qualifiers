@@ -8,7 +8,7 @@ if (english) {
   for (const label of document.querySelectorAll("[data-en-label]")) {
     label.setAttribute("aria-label", label.dataset.enLabel);
   }
-  for (const score of document.querySelectorAll("td.points")) {
+  for (const score of document.querySelectorAll("td.points:not(.placement)")) {
     score.textContent = score.textContent.replace(",", ".");
   }
 }
