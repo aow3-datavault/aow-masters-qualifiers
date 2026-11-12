@@ -29,6 +29,7 @@
 .league-divider img{display:block;object-fit:contain}
 .faction .points{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .faction td.points{color:var(--accent);font-weight:700}
+.faction td.points.placement{white-space:normal;overflow-wrap:anywhere}
 .faction .clan{color:var(--muted)}
 @media(max-width:620px){
   .faction h2{padding:12px 9px}
